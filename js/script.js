@@ -66,7 +66,7 @@ function exercicio6() {
 function exercicio7() {
   titulo(7);
   const notas = [7, 8, 6, 7, 9, 5, 7];
-  const soma = notas.reduce((total, nota) => total + nota, 0);
+  const soma = notas.reduce((total, nota) => total + nota, 0); // soma das sete notas
   const media = soma / notas.length;
   console.log('Notas:', notas);
   console.log(`Média: ${media.toFixed(2)}`);
