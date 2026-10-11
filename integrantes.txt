@@ -1,14 +1,7 @@
 INTEGRANTES DO PROJETO
 
-Nome completo: [PREENCHER]
-RM: [PREENCHER]
+Nome completo: [Rafael De Oliveira Santos Zuccon]
+RM: [575995]
 
-Integrante 2 (se houver):
-Nome completo: [PREENCHER]
-RM: [PREENCHER]
 
-Integrante 3 (se houver):
-Nome completo: [PREENCHER]
-RM: [PREENCHER]
-
-Link do repositório GitHub: https://github.com/SEU-USUARIO/SEU-REPOSITORIO
+Link do repositório GitHub: https://github.com/rafazuccon/fiap-WebDevelopment-CP
