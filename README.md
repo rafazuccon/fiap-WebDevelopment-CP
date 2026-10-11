@@ -61,3 +61,5 @@ Olá, rede! Apresento nosso projeto de exercícios em JavaScript, desenvolvido c
 - As credenciais dos exercícios 6 e 9 são apenas didáticas, não um sistema real de login.
 - No exercício 2, o intervalo até 24,9 foi aplicado literalmente como solicitado; IMCs entre 24,9 e 25 serão classificados como acima do peso.
  
+
+Verifique a saída completa no Console antes de gravar o vídeo.
