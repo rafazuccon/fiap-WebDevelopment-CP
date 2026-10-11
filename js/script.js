@@ -97,7 +97,7 @@ function exercicio10() {
   titulo(10);
   const valorProduto = 150;
   const valorDesconto = 30;
-  const valorFinal = valorProduto - valorDesconto;
+  const valorFinal = valorProduto - valorDesconto; // aplica o desconto
   console.log(`Produto: R$ ${valorProduto.toFixed(2)}`);
   console.log(`Desconto: R$ ${valorDesconto.toFixed(2)}`);
   console.log(`Valor final: R$ ${valorFinal.toFixed(2)}`);
