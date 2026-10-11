@@ -5,17 +5,25 @@ console.log(5 === '5');
 console.log(10 >= 8);
 
 // Exercício 2 - IMC
-console.log('********** Exercício 2 **********');
-let peso = Number(prompt('Digite seu peso em kg:'));
-let altura = Number(prompt('Digite sua altura em metros (exemplo: 1.75):'));
+console.log("********** Exercício 2 **********");
+
+let peso = Number(prompt("Digite seu peso:"));
+let altura = Number(prompt("Digite sua altura em metros:"));
+
 let imc = peso / (altura * altura);
-console.log('Seu IMC é:', imc.toFixed(2));
-if (imc < 18.5) {
-  console.log('Abaixo do peso');
-} else if (imc <= 24.9) {
-  console.log('Peso ideal');
+
+if (peso <= 0 || altura <= 0 || isNaN(imc)) {
+    console.log("Peso ou altura inválidos");
 } else {
-  console.log('Acima do peso');
+    console.log("Seu IMC é:", imc.toFixed(2));
+
+    if (imc < 18.5) {
+        console.log("Abaixo do peso");
+    } else if (imc <= 24.9) {
+        console.log("Peso ideal");
+    } else {
+        console.log("Acima do peso");
+    }
 }
 
 // Exercício 3 - For
